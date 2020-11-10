@@ -1,5 +1,5 @@
-<h1 align="center">CyberGhost Weapon v1.0</h1>
-<p align="center">An Ultimate CyberGhost's  SMS/call bomber For Linux and Termux</p><br>
+<h1 align="center">CyberGhost Weapon -SMS (Specially For Fast SMS Bombing)</h1>
+<p align="center">An Ultimate CyberGhost's  SMS bomber For Linux and Termux</p><br>
 
 ## Note:
 
@@ -10,7 +10,7 @@
 - No balance will be deducted for using this script to send SMS/calls.
 - While doing infinite bombing use 2-3 seconds delay and 10 to 20 threads for maximum performance.
 - Don't put spaces in between phone number (Ex- 99999 99999)
-- Make sure you are using the latest version of CyberGhostWeapon
+- Make sure you are using the latest version of CyberGhostWeapon-SMS
 - Make sure you are using Python3.
 
 Here's how you can check it. Type this command in your terminal.
@@ -26,7 +26,7 @@ If output looks like `Python 3` - Congrats, Python 3 is installed properly.
 
 ## Features:
 
-- Lots of integrated SMS/call APIs
+- Lots of integrated SMS APIs
 - Unlimited (Limited against abusing) and super-fast bombing
 - International bombing available (APIS Dead. Try Your Luck.) 
 - Call bombing
@@ -36,7 +36,7 @@ If output looks like `Python 3` - Congrats, Python 3 is installed properly.
 
 ## Usage:
 
-Run these commands to run CyberGhostWeapon
+Run these commands to run CyberGhostWeapon-SMS
 
 ### > For Termux:
 
@@ -51,10 +51,11 @@ To use the bomber type the following commands in Termux:
 ```
 pkg install git
 pkg install python
-git clone https://github.com/MrHarshArora/CyberGhostWeapon.git
-cd CyberGhostWeapon
-chmod +x CyberGhostWeapon.sh
-./CyberGhostWeapon.sh
+pip install requests
+git clone https://github.com/MrHarshArora/CyberGhostWeapon-SMS.git
+cd CyberGhostWeapon-SMS
+chmod +x ~
+Pyhton3 sms.py
 ```
 
 ### > For Linux:
@@ -69,37 +70,10 @@ Commands below provide instructions for Debian-based systems.
 To use the bomber type the following commands in Linux terminal:
 ```
 sudo apt install git
-git clone https://github.com/MrHarshArora/CyberGhostWeapon.git
-cd CyberGhostWeapon
-chmod +x CyberGhostWeapon.sh
-sudo bash CyberGhostWeapon.sh
-```
-
-### > For macOS:
-
-To use the bomber type the following commands in macOS terminal:
-```
-# Install Brew: 
-
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-
-# Install dependencies:
-
-brew install git
-brew install python3
-sudo easy_install pip
-sudo pip install --upgrade pip
-git clone https://github.com/MrHarshArora/CyberGhostWeapon.git
-cd CyberGhostWeapon
-chmod +x CyberGhostWeapon.sh
-
-# Missing Tools on MacOS
-
-Toilet cannot be installed yet. But CyberGhostWeapon does still work.
-
-# Run CyberGhostWeapon:
-
-sudo bash CyberGhostWeapon.sh
+git clone https://github.com/MrHarshArora/CyberGhostWeapon-SMS.git
+cd CyberGhostWeapon-SMS
+chmod +x ~
+python3 sms.py
 ```
 
 ## Demontrative Video:
