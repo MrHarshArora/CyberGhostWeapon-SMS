@@ -9,7 +9,7 @@ banner = """
  \____\__, |_.__/ \___|_|   \____|_| |_|\___/|___/\__|
       |___/
 """
- print('Coded By Harsh Arora -Admin {{CYBERGHOST}}')
+print('Coded By Harsh Arora -Admin {{CYBERGHOST}}')
 
 print(banner)
 _phone = input('Hello! Enter The Number Of the Victim-->> ')
